@@ -8,7 +8,6 @@ html {
   position: relative;
   height: 80px;
   background: #fff;
-  outline: dotted 3px orchid;
   margin: 20px 0px 0px 0px;
 }
 
@@ -22,12 +21,18 @@ h1 {
   position: absolute;
   top: 10px;
   left: 50px;
+  font-family: 'Yellowtail', cursive;
+  font-size: 2em;
+  font-weight: bold;
 }
 
 h2 {
   position: absolute;
-  top: 25px;
+  top: 40px;
   left: 50px;
+  font-family: 'Barlow Condensed', sans-serif;
+  color: #999;
+  text-transform: uppercase;
 }
 
 #wifi {
@@ -85,16 +90,23 @@ div {
 
 header {
   position: relative;
-  height: 
+}
+
+section>header{
+  height: 80px;
 }
 
 h3 {
   font-size: 2.5em;
   margin: 50px 0px 0px 0px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
 }
 
 h4 {
-  margin: 0px 0px 30px 0px;
+  margin: 0px 0px 10px 0px;
+  font-family: 'Barlow Condensed', sans-serif;
+  text-transform: uppercase;
 }
 
 #pizza {
@@ -149,7 +161,6 @@ li {
 
 #bottom {
   position: relative;
-  outline: dotted 3px blue;
   height: 100px
 }
 
@@ -174,15 +185,43 @@ h5 {
 }
 
 button {
-  font-size: 24px;
-  font-family: inherit;
-  padding: 0;
+  font-size: 15px;
   position: absolute;
-  bottom: 0;
+  top: 20px;
   right: 0;
+  background: rgb(175, 75, 29);
+  color: white;
+  padding: 15px 25px 15px 25px;
+  border: none;
 }
 
 footer {
-  outline: dotted 3px pink;
+  height: 150px;
+  position: relative;
+  margin: 50px 0px 0px 0px;
 }
 
+#small-logo{
+  position:absolute;
+  top:0px;
+  left: 475px;
+}
+
+footer>span:nth-child(2){
+  position:absolute;
+  top: 65px;
+  left:373px;
+} 
+
+footer>span:nth-child(3){
+  position:absolute;
+  top: 65px;
+  right:332px;
+}
+
+footer>span:nth-child(4){
+  position:absolute;
+  top: 85px;
+  left: 400px;
+
+}
