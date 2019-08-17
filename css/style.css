@@ -98,7 +98,7 @@ section>header{
 
 h3 {
   font-size: 2.5em;
-  margin: 50px 0px 0px 0px;
+  margin: 50px 0px 5px 0px;
   font-family: 'Oswald', sans-serif;
   font-weight: bold;
 }
@@ -107,6 +107,8 @@ h4 {
   margin: 0px 0px 10px 0px;
   font-family: 'Barlow Condensed', sans-serif;
   text-transform: uppercase;
+  color: #999;
+  font-size: 14px;
 }
 
 #pizza {
@@ -116,19 +118,27 @@ h4 {
 
 #print1 {
   position: absolute;
-  top: 38px;
-  right: 35px;
+  top: 37px;
+  right: 32px;
 }
 
 #print2 {
   position: absolute;
   top: 35px;
   right: 0;
+  font-family: 'Barlow Condensed', sans-serif;
+  text-transform: uppercase;
+  color: #999;
+  font-size: 14px;
 }
 
 p {
   margin: 20px 0px 0px 0px;
   text-indent: 1.5em;
+  font-family: 'Noto Serif', serif;
+  color: #666;
+  line-height: 22px;
+  font-size: 17.5px;
 }
 
 #list {
@@ -138,18 +148,20 @@ p {
 
 #list1 {
   float: left;
-  font-size: 1.5em;
-  margin: 2em 0px 2.25em 2em;
+  font-size: 1.7em;
+  margin: 30px 0px 0px 40px;
 }
 
 li {
   margin: 0px 0px 10px 0px;
+  font-family: 'Patrick Hand', cursive;
+  color: #777;
 }
 
 #list2 {
   float: right;
-  font-size: 1.5em;
-  margin: 2em 2em 2.25em 0px;
+  font-size: 1.7em;
+  margin: 30px 30px 0px 0px;
 }
 
 #section {
@@ -161,7 +173,8 @@ li {
 
 #bottom {
   position: relative;
-  height: 100px
+  height: 100px;
+  overflow: auto;
 }
 
 #vanessa {
@@ -172,9 +185,12 @@ li {
 
 h5 {
   position: absolute;
-  font-size: 1.5em;
+  font-size: 1.3em;
   top: 15px;
   left: 90px;
+  font-family: 'Noto Serif', serif;
+  font-weight: bold;
+  color: #666;
 }
 
 #about {
@@ -185,20 +201,22 @@ h5 {
 }
 
 button {
-  font-size: 15px;
-  position: absolute;
-  top: 20px;
-  right: 0;
+  font-size: 20px;
+  float: right;
   background: rgb(175, 75, 29);
   color: white;
-  padding: 15px 25px 15px 25px;
+  padding: 15px 35px 15px 35px;
   border: none;
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-transform: uppercase;
+  margin: 20px 0px 20px 10px;
 }
 
 footer {
   height: 150px;
   position: relative;
   margin: 50px 0px 0px 0px;
+  
 }
 
 #small-logo{
