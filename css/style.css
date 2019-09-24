@@ -198,6 +198,7 @@ h5 {
   font-size: 1.15em;
   top: 30px;
   left: 65px;
+  max-width: 750px;
 }
 
 button {
@@ -216,7 +217,7 @@ footer {
   height: 150px;
   position: relative;
   margin: 50px 0px 0px 0px;
-  
+  clear: both;
 }
 
 #small-logo{
